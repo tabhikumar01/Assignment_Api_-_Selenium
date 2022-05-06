@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="7" skipped="0" total="7">
+    <suite duration-ms="9246" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="9246" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="To check the functionality for creation of new user">
+                <test-method duration-ms="4332" finished-at="2022-05-05T18:16:59.521451300Z" name="Create new user" started-at="2022-05-05T18:16:55.019345600Z" status="PASS"/>
+            </class>
+            <class name="To retrieve the data for particular user using ID">
+                <test-method duration-ms="667" finished-at="2022-05-05T18:17:00.245764800Z" name="Get user detail with the help of his/her ID" started-at="2022-05-05T18:16:59.567515Z" status="PASS"/>
+            </class>
+            <class name="To check and validate login functionality with positive response code received">
+                <test-method duration-ms="729" finished-at="2022-05-05T18:17:01.000626800Z" name="Login with a positive set of credential" started-at="2022-05-05T18:17:00.261729900Z" status="PASS"/>
+            </class>
+            <class name="To retrieve and assert the data for particular user using ID">
+                <test-method duration-ms="383" finished-at="2022-05-05T18:17:01.405200Z" name="Get user detail with the help of his/her ID for assertion" started-at="2022-05-05T18:17:01.013563700Z" status="PASS"/>
+            </class>
+            <class name="To check and validate the functionality when user is created">
+                <test-method duration-ms="957" finished-at="2022-05-05T18:17:02.379290400Z" name="ReqRes Page failure" started-at="2022-05-05T18:17:01.416865Z" status="PASS"/>
+            </class>
+            <class name="To check and validate and assert the functionality when user is created@negativeScenario">
+                <test-method duration-ms="650" finished-at="2022-05-05T18:17:03.059992500Z" name="Foreign Exchange Page failure for assertion" started-at="2022-05-05T18:17:02.401373800Z" status="PASS"/>
+            </class>
+            <class name="Post with future date and validate">
+                <test-method duration-ms="827" finished-at="2022-05-05T18:17:03.906530200Z" name="Foreign Exchange Page future date" started-at="2022-05-05T18:17:03.073644600Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>
+
+    <testcase classname="To check and validate and assert the functionality when user is created@negativeScenario" name="Foreign Exchange Page failure for assertion" time="0.658">
+        <system-out><![CDATA[Given API for foreign exchange one for assertion............................passed
+When posted with incorrect Information for assertion........................passed
+Then validate negative response code received for assertion.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Post with future date and validate" name="Foreign Exchange Page future date" time="0.832">
+        <system-out><![CDATA[Given API for foreign exchange two..........................................passed
+When posted with future date information....................................passed
+Then validate positive response code received from futuredate...............passed
+]]></system-out>
+    </testcase>
+</testsuite>
